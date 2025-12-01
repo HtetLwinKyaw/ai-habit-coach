@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+myenv/
+.env
+
+# Python cache
+__pycache__/
+
+# Large model files — DO NOT COMMIT
+src/models/
+*.pt
+*.bin
+*.safetensors
+*.h5
+
+# Data + logs
+data/
+requests_log.db
+requests_log.csv
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

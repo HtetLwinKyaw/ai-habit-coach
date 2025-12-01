@@ -1,0 +1,13 @@
+🧩Activate your virtual environment
+If your venv folder is still named myenv:
+.\myenv\Scripts\Activate.ps1
+If it’s called venv (as in your latest screenshot):
+.\venv\Scripts\Activate.ps1
+
+🧩Start the FastAPI backend (API)
+cd src/api
+uvicorn main:app --reload --port 8000
+
+🧩Open a second terminal -- Run the Streamlit dashboard
+cd notebooks
+streamlit run streamlit_app.py

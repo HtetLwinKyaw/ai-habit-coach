@@ -1,0 +1,23 @@
+# core
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyterlab
+
+# NLP / transformers
+transformers>=4.30
+datasets
+tokenizers
+torch>=2.0  # or tensorflow if you prefer TF
+accelerate
+
+# server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# timeseries / other
+prophet  # optional; install with conda if trouble
+pytorch-lightning  # optional for LSTM
+joblib
